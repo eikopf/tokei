@@ -37,7 +37,7 @@
       "name": "APL",
       "line_comment": ["⍝"],
       "extensions": ["apl", "aplf", "apls"],
-      "quotes": [["'", "'"]],
+      "quotes": [["'", "'"]]
     },
     "Arduino": {
       "name": "Arduino C++",
@@ -181,7 +181,7 @@
       "name": "BQN",
       "line_comment": ["#"],
       "extensions": ["bqn"],
-      "quotes": [["\\\"", "\\\""], ["'", "'"]],
+      "quotes": [["\\\"", "\\\""], ["'", "'"]]
     },
     "BrightScript": {
       "quotes": [["\\\"", "\\\""]],
@@ -450,6 +450,11 @@
       "name": "Dust.js",
       "multi_line_comments": [["{!", "!}"]],
       "extensions": ["dust"]
+    },
+    "Ebnf": {
+      "name": "EBNF",
+      "multi_line_comments": [["(*", "*)"]],
+      "extensions": ["ebnf"]
     },
     "Ebuild": {
       "line_comment": ["#"],
@@ -800,6 +805,10 @@
       ],
       "quotes": [["''", "''"]],
       "extensions": ["thy"]
+    },
+    "Jabber": {
+      "line_comment": ["//"],
+      "extensions": ["jbr"]
     },
     "Jai": {
       "name": "JAI",
@@ -1823,6 +1832,10 @@
       "line_comment": ["!"],
       "quotes": [["`", "`"]],
       "extensions": ["umpl"]
+    },
+    "Ungrammar": {
+      "line_comment": ["//"],
+      "extensions": ["ungram"],
     },
     "Unison": {
       "nested": true,
